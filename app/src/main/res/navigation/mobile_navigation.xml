@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.dlweb.servi1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PedreiroFragment"
+            app:destination="@id/PedreiroFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PedreiroMFragment"
+            app:destination="@id/PedreiroMFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_EncanadorMFragment"
+            app:destination="@id/EncanadorMFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_EletricistaMFragment"
+            app:destination="@id/EletricistaMFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_MecanicoMFragment"
+            app:destination="@id/MecanicoMFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_servicos"
+        android:name="br.com.dlweb.servi1.ui.servicos.ServicosFragment"
+        android:label="Meus Serviços"
+        tools:layout="@layout/fragment_servicos">
+
+        <action
+            android:id="@+id/action_ServicosFragment_to_CadastrarFragment"
+            app:destination="@id/CadastrarFragment" />
+        <action
+            android:id="@+id/action_ServicosFragment_to_ListarFragment"
+            app:destination="@id/ListarFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_ajuda"
+        android:name="br.com.dlweb.servi1.ui.ajuda.AjudaFragment"
+        android:label="Ajuda"
+        tools:layout="@layout/fragment_ajuda" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="br.com.dlweb.servi1.ui.login.LoginFragment"
+        android:label= "Login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LoginFragment_to_CadastroFragment"
+            app:destination="@id/CadastroFragment" />
+
+        <action
+            android:id="@+id/action_LoginFragment_to_EntrarFragment"
+            app:destination="@id/EntrarFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/CadastroFragment"
+        android:name="br.com.dlweb.servi1.ui.login.CadastroFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_cadastro">
+
+        <action
+            android:id="@+id/action_CadastroFragment_to_LoginFragment"
+            app:destination="@+id/nav_login" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/EntrarFragment"
+        android:name="br.com.dlweb.servi1.ui.login.EntrarFragment"
+        android:label="Entrar"
+        tools:layout="@layout/fragment_entrar">
+
+        <action
+            android:id="@+id/action_EntrarFragment_to_LoginFragment"
+            app:destination="@+id/nav_login" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="br.com.dlweb.servi1.ui.profile.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_ProfileFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_FavFragment"
+            app:destination="@id/FavoritosFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_orcrFragment"
+            app:destination="@id/OrcRFragment" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_ListarFragment"
+            app:destination="@id/ListarP" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SearcheFragment"
+        android:name="br.com.dlweb.servi1.ui.home.BuscarFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_buscar">
+
+        <action
+            android:id="@+id/action_SearcheFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_SearcheFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_SearcheFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_SearcheFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_SearcheFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ConfigFragment"
+        android:name="br.com.dlweb.servi1.ui.home.ConfiguracoesFragment"
+        android:label="Configuracões"
+        tools:layout="@layout/fragment_configuracoes">
+
+        <action
+            android:id="@+id/action_ConfigFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_ConfigFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_ConfigFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_ConfigFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_ConfigFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrcamentosFragment"
+        android:name="br.com.dlweb.servi1.ui.home.OrcamentosFragment"
+        android:label="Orçamentos"
+        tools:layout="@layout/fragment_orcamentos">
+
+        <action
+            android:id="@+id/action_OrcFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_OrcFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_OrcFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_OrcFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_OrcFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/OrcRFragment"
+        android:name="br.com.dlweb.servi1.ui.profile.OrcRFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_orcr">
+
+        <action
+            android:id="@+id/action_OrcRFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_FavFragment"
+            app:destination="@id/FavoritosFragment" />
+        <action
+            android:id="@+id/action_OrcRFragment_to_orcrFragment"
+            app:destination="@id/OrcRFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FavoritosFragment"
+        android:name="br.com.dlweb.servi1.ui.profile.FavoritosFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_favoritos">
+
+        <action
+            android:id="@+id/action_FavFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/action_FavFragment_to_SearcheFragment"
+            app:destination="@id/SearcheFragment" />
+        <action
+            android:id="@+id/action_FavFragment_to_OrcamentosFragment"
+            app:destination="@id/OrcamentosFragment" />
+        <action
+            android:id="@+id/action_FavFragment_to_ConfigFragment"
+            app:destination="@id/ConfigFragment" />
+        <action
+            android:id="@+id/action_FavFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_FavFragment_to_FavFragment"
+            app:destination="@id/FavoritosFragment" />
+        <action
+            android:id="@+id/action_FavFragment_to_orcrFragment"
+            app:destination="@id/OrcRFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ListarP"
+        android:name="br.com.dlweb.servi1.ui.profile.ListarPFragment"
+        android:label="Editar Perfil"
+        tools:layout="@layout/fragment_listar_p">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ListarFragment"
+        android:name="br.com.dlweb.servi1.ui.servicos.ListarFragment"
+        android:label="Listar"
+        tools:layout="@layout/fragment_listar">
+    </fragment>
+
+    <fragment
+        android:id="@+id/CadastrarFragment"
+        android:name="br.com.dlweb.servi1.ui.servicos.CadastrarFragment"
+        android:label="Cadastrar"
+        tools:layout="@layout/fragment_cadastrar">
+    </fragment>
+
+    <fragment
+        android:id="@+id/PedreiroFragment"
+        android:name="br.com.dlweb.servi1.ui.home.PedreiroFragment"
+        android:label="Pedreiro"
+        tools:layout="@layout/fragment_pedreiro">
+    </fragment>
+
+    <fragment
+        android:id="@+id/EletricistaMFragment"
+        android:name="br.com.dlweb.servi1.ui.home.EletricistaMFragment"
+        android:label="Eletricista"
+        tools:layout="@layout/fragment_eletricista_m">
+    </fragment>
+
+    <fragment
+        android:id="@+id/PedreiroMFragment"
+        android:name="br.com.dlweb.servi1.ui.home.PedreiroMFragment"
+        android:label="Pedreiro"
+        tools:layout="@layout/fragment_pedreiro_m">
+    </fragment>
+
+    <fragment
+        android:id="@+id/MecanicoMFragment"
+        android:name="br.com.dlweb.servi1.ui.home.MecanicoMFragment"
+        android:label="Mecanico"
+        tools:layout="@layout/fragment_mecanico_m">
+    </fragment>
+
+    <fragment
+        android:id="@+id/EncanadorMFragment"
+        android:name="br.com.dlweb.servi1.ui.home.EncanadorMFragment"
+        android:label="Encanador"
+        tools:layout="@layout/fragment_encanador_m">
+    </fragment>
+
+</navigation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".ui.home.OrcamentosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="742dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButtonHomeO"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/home1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSearcheO"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/searche" />
+
+        <ImageButton
+            android:id="@+id/imageButtonProfileO"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/pessoa" />
+
+        <ImageButton
+            android:id="@+id/imageButtonOrcO"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/orc1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonConfigO"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="460dp"
+            android:src="@drawable/config" />
+
+    </LinearLayout>
+
+</FrameLayout>

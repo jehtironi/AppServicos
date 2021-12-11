@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ui.login.LoginFragment" >
+
+    <TextView
+        android:id="@+id/textViewCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categorias"
+        android:textSize="18sp"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/buttonPagamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagamentos"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/buttonPromocoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promoções"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/buttonConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contas"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/buttonSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre o Servi"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/buttonProdutos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviços"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/buttonTermos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Políticas e termos"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/buttonPrivacidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Privacidade e Dados"
+        android:background="#00FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="14dp"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Servi1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/activity_main.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/app_bar_main.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/cadastro_item_list_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/content_main.xml" value="0.12140871177015755" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_ajuda.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_buscar.xml" value="0.3326488706365503" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_cadastrar.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_cadastrar_s.xml" value="0.253125" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_cadastrars.xml" value="0.371875" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_cadastro.xml" value="0.33" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_configuracoes.xml" value="0.253125" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_editar.xml" value="0.371875" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_editarC.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_eletricista_m.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_encanador_m.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_entrar.xml" value="0.21041666666666667" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_favoritos.xml" value="0.253125" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_gallery.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_listar.xml" value="0.371875" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_listarC.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_listar_p.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_login.xml" value="0.10030395136778116" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_mecanico_m.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_meusservicos.xml" value="0.371875" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_orcamentos.xml" value="0.253125" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_orcr.xml" value="0.253125" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_pedreiro.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_pedreiro_m.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_profile.xml" value="0.33773453787352326" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_servicos.xml" value="0.371875" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/fragment_slideshow.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/nav_header_main.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/layout/servicos_item_list_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/Servi1/app/src/main/res/menu/activity_main_drawer.xml" value="0.1782312925170068" />
+        <entry key="..\:/Servi1/app/src/main/res/menu/main.xml" value="0.12129629629629629" />
+        <entry key="..\:/Servi1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
